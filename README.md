@@ -1,2 +1,2 @@
 # personal-skills
-These are the Claude Code skills I use.
+These are coding agent skills I have made for myself.
