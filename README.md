@@ -7,6 +7,7 @@ These are coding agent skills I have made for myself.
 | [clean-docs](clean-docs/SKILL.md) | Reviews and cleans up agent-instruction Markdown files (AGENTS.md, CLAUDE.md, and similar) using empirically-derived best practices. Applies length limits, progressive disclosure, procedural workflows, decision tables, paired do/don't rules, and reference-file modularity. |
 | [init-multiple-markdown-files](init-multiple-markdown-files/SKILL.md) | Initializes a repo's agent-instruction docs by splitting content across multiple Markdown files (max 200 lines each) with CLAUDE.md as a table of contents. For multi-project repos, creates a CLAUDE.md per subproject and links them from the root CLAUDE.md. |
 | [local-spring-boot-code-review](local-spring-boot-code-review/SKILL.md) | Reviews Spring Boot code in the feature branch against the main branch. |
+| [tdd-test-plan](tdd-test-plan/SKILL.md) | Breaks a feature, plan, or spec into small, independently testable TDD tasks and assigns a model (opus/sonnet/haiku) to each based on its difficulty. Each task is sized to one red-green-refactor cycle and emitted as compact XML. |
 
 ## Contributions
 Pull requests welcome!
